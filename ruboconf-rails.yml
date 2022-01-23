@@ -9,6 +9,9 @@ inherit_from:
   - cops/style.yml
 
 AllCops:
+  inherit_mode:
+    merge:
+      - Exclude
   Exclude:
     - 'db/schema.rb'
     - 'bin/{rails,bundle,rake,setup,webpack,webpack-dev-server,yarn}'
