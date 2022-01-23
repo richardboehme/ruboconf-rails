@@ -1,0 +1,3 @@
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'config/application.rb'
