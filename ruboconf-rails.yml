@@ -10,4 +10,4 @@ inherit_from:
 AllCops:
   Exclude:
     - 'db/schema.rb'
-    - 'bin/{rails,bundle,rake,setup}'
+    - 'bin/{rails,bundle,rake,setup,webpack,webpack-dev-server,yarn}'
