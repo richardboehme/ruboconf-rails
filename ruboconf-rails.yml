@@ -1,0 +1,13 @@
+require:
+  - rubocop-rails
+
+inherit_gem:
+  ruboconf: ruboconf.yml
+
+inherit_from:
+  - cops/rails.yml
+
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+    - 'bin/{rails,bundle,rake,setup}'
