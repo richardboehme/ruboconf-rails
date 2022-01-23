@@ -31,6 +31,9 @@ Rails/EagerEvaluationLogMessage:
 Rails/ExpandedDateRange:
   Enabled: true
 
+Rails/FilePath:
+  EnforcedStyle: arguments
+
 Rails/FindById:
   Enabled: true
 
