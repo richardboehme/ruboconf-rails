@@ -1,3 +1,6 @@
+Rails/ActionControllerTestCase:
+  Enabled: true
+
 Rails/ActiveRecordCallbacksOrder:
   Enabled: true
 
@@ -22,6 +25,18 @@ Rails/CompactBlank:
 Rails/Date:
   Enabled: true
 
+Rails/DeprecatedActiveModelErrorsMethods:
+  Enabled: true
+
+Rails/DotSeparatedKeys:
+  Enabled: false
+
+Rails/DuplicateAssociation:
+  Enabled: true
+
+Rails/DuplicateScope:
+  Enabled: true
+
 Rails/DurationArithmetic:
   Enabled: true
 
@@ -40,7 +55,13 @@ Rails/FindById:
 Rails/HasManyOrHasOneDependent:
   Enabled: true
 
+Rails/I18nLazyLookup:
+  Enabled: true
+
 Rails/I18nLocaleAssignment:
+  Enabled: true
+
+Rails/I18nLocaleTexts:
   Enabled: true
 
 Rails/Inquiry:
@@ -53,6 +74,9 @@ Rails/MailerName:
   Enabled: true
 
 Rails/MatchRoute:
+  Enabled: true
+
+Rails/MigrationClassName:
   Enabled: true
 
 Rails/NegateInclude:
@@ -79,13 +103,26 @@ Rails/RenderPlainText:
 Rails/RootJoinChain:
   Enabled: true
 
+Rails/RootPublicPath:
+  Enabled: true
+
 Rails/ShortI18n:
   Enabled: true
 
 Rails/SquishedSQLHeredocs:
   Enabled: true
 
+Rails/StripHeredoc:
+  Enabled: true
+
 Rails/TimeZoneAssignment:
+  Enabled: true
+
+Rails/ToFormattedS:
+  Enabled: true
+  EnforcedStyle: to_formatted_s
+
+Rails/TransactionExitStatement:
   Enabled: true
 
 Rails/UnusedIgnoredColumns:
