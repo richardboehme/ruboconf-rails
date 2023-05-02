@@ -3,7 +3,7 @@ PATH
   specs:
     ruboconf-rails (1.10.0)
       ruboconf (~> 1.11.0)
-      rubocop-rails (~> 2.15.0)
+      rubocop-rails (~> 2.19)
 
 GEM
   remote: https://rubygems.org/
@@ -45,10 +45,10 @@ GEM
     rubocop-performance (1.17.1)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
-    rubocop-rails (2.15.2)
+    rubocop-rails (2.19.1)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
-      rubocop (>= 1.7.0, < 2.0)
+      rubocop (>= 1.33.0, < 2.0)
     ruby-progressbar (1.13.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)

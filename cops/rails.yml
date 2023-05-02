@@ -1,7 +1,23 @@
+Rails/ActionControllerFlashBeforeRender:
+  Enabled: true
+
 Rails/ActionControllerTestCase:
   Enabled: true
 
+Rails/ActionOrder:
+   ExpectedOrder:
+     - index
+     - show
+     - new
+     - create
+     - edit
+     - update
+     - destroy
+
 Rails/ActiveRecordCallbacksOrder:
+  Enabled: true
+
+Rails/ActiveSupportOnLoad:
   Enabled: true
 
 Rails/AddColumnIndex:
@@ -52,6 +68,9 @@ Rails/FilePath:
 Rails/FindById:
   Enabled: true
 
+Rails/FreezeTime:
+  Enabled: true
+
 Rails/HasManyOrHasOneDependent:
   Enabled: true
 
@@ -62,6 +81,9 @@ Rails/I18nLocaleAssignment:
   Enabled: true
 
 Rails/I18nLocaleTexts:
+  Enabled: true
+
+Rails/IgnoredColumnsAssignment:
   Enabled: true
 
 Rails/Inquiry:
@@ -100,7 +122,13 @@ Rails/RenderInline:
 Rails/RenderPlainText:
   Enabled: true
 
+Rails/ResponseParsedBody:
+  Enabled: true
+
 Rails/RootJoinChain:
+  Enabled: true
+
+Rails/RootPathnameMethods:
   Enabled: true
 
 Rails/RootPublicPath:
@@ -115,12 +143,21 @@ Rails/SquishedSQLHeredocs:
 Rails/StripHeredoc:
   Enabled: true
 
+Rails/ThreeStateBooleanColumn:
+  Enabled: true
+
 Rails/TimeZoneAssignment:
   Enabled: true
 
 Rails/ToFormattedS:
   Enabled: true
   EnforcedStyle: to_formatted_s
+
+Rails/TopLevelHashWithIndifferentAccess:
+  Enabled: true
+
+Rails/ToSWithArgument:
+  Enabled: true
 
 Rails/TransactionExitStatement:
   Enabled: true
@@ -134,5 +171,11 @@ Rails/WhereEquals:
 Rails/WhereExists:
   Enabled: true
 
+Rails/WhereMissing:
+  Enabled: true
+
 Rails/WhereNot:
   Enabled: true
+
+Rails/WhereNotWithMultipleConditions:
+  Enabled: false
