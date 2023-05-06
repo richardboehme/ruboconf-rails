@@ -5,14 +5,15 @@ Rails/ActionControllerTestCase:
   Enabled: true
 
 Rails/ActionOrder:
-   ExpectedOrder:
-     - index
-     - show
-     - new
-     - create
-     - edit
-     - update
-     - destroy
+  Enabled: true
+  ExpectedOrder:
+    - index
+    - show
+    - new
+    - create
+    - edit
+    - update
+    - destroy
 
 Rails/ActiveRecordCallbacksOrder:
   Enabled: true
