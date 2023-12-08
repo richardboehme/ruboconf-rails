@@ -39,6 +39,9 @@ Rails/BulkChangeTable:
 Rails/CompactBlank:
   Enabled: true
 
+Rails/DangerousColumnNames:
+  Enabled: true
+
 Rails/Date:
   Enabled: true
 
@@ -58,6 +61,9 @@ Rails/DurationArithmetic:
   Enabled: true
 
 Rails/EagerEvaluationLogMessage:
+  Enabled: true
+
+Rails/EnvLocal:
   Enabled: true
 
 Rails/ExpandedDateRange:
@@ -111,6 +117,9 @@ Rails/Pluck:
 Rails/PluckInWhere:
   Enabled: true
 
+Rails/RedundantActiveRecordAllMethod:
+  Enabled: true
+
 Rails/RedundantPresenceValidationOnBelongsTo:
   Enabled: true
 
@@ -133,6 +142,9 @@ Rails/RootPathnameMethods:
   Enabled: true
 
 Rails/RootPublicPath:
+  Enabled: true
+
+Rails/SelectMap:
   Enabled: true
 
 Rails/ShortI18n:
@@ -164,6 +176,9 @@ Rails/TransactionExitStatement:
   Enabled: true
 
 Rails/UnusedIgnoredColumns:
+  Enabled: true
+
+Rails/UnusedRenderContent:
   Enabled: true
 
 Rails/WhereEquals:
