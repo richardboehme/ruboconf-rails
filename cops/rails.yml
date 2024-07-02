@@ -195,3 +195,6 @@ Rails/WhereNot:
 
 Rails/WhereNotWithMultipleConditions:
   Enabled: false
+
+Rails/WhereRange:
+  Enabled: true
