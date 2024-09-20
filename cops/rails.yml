@@ -63,6 +63,15 @@ Rails/DurationArithmetic:
 Rails/EagerEvaluationLogMessage:
   Enabled: true
 
+Rails/EnumHash:
+  Enabled: true
+
+Rails/EnumSyntax:
+  Enabled: true
+
+Rails/EnumUniqueness:
+  Enabled: true
+
 Rails/EnvLocal:
   Enabled: true
 
