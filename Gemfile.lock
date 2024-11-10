@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     ruboconf-rails (1.16.0)
-      ruboconf (~> 1.15.0)
+      ruboconf (~> 1.16.0)
       rubocop-rails (>= 2.23, < 2.28)
 
 GEM
@@ -39,10 +39,10 @@ GEM
     rainbow (3.1.1)
     rake (13.2.1)
     regexp_parser (2.9.2)
-    ruboconf (1.15.0)
-      rubocop (~> 1.66.0)
+    ruboconf (1.16.0)
+      rubocop (~> 1.68.0)
       rubocop-performance (~> 1.22.0)
-    rubocop (1.66.1)
+    rubocop (1.68.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
