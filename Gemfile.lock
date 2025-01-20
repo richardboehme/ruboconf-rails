@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ruboconf-rails (1.17.0)
+    ruboconf-rails (1.18.0)
       ruboconf (~> 1.17.0)
       rubocop-rails (>= 2.23, < 2.30)
 
