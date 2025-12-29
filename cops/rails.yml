@@ -72,6 +72,9 @@ Rails/EnumSyntax:
 Rails/EnumUniqueness:
   Enabled: true
 
+Rails/Env:
+  Enabled: true
+
 Rails/EnvLocal:
   Enabled: true
 
@@ -84,10 +87,16 @@ Rails/FilePath:
 Rails/FindById:
   Enabled: true
 
+Rails/FindByOrAssignmentMemoization:
+  Enabled: true
+
 Rails/FreezeTime:
   Enabled: true
 
 Rails/HasManyOrHasOneDependent:
+  Enabled: true
+
+Rails/HttpStatusNameConsistency:
   Enabled: true
 
 Rails/I18nLazyLookup:
@@ -123,10 +132,16 @@ Rails/MultipleRoutePaths:
 Rails/NegateInclude:
   Enabled: true
 
+Rails/OrderArguments:
+  Enabled: true
+
 Rails/Pluck:
   Enabled: true
 
 Rails/PluckInWhere:
+  Enabled: true
+
+Rails/RedirectBackOrTo:
   Enabled: true
 
 Rails/RedundantActiveRecordAllMethod:

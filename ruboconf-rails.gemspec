@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "ruboconf", "~> 1.19.0"
-  spec.add_dependency "rubocop-rails", "~> 2.32.0"
+  spec.add_dependency "rubocop-rails", "~> 2.34.2"
   spec.metadata["rubygems_mfa_required"] = "true"
 end
