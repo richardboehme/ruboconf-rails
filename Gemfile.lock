@@ -3,7 +3,7 @@ PATH
   specs:
     ruboconf-rails (1.20.0)
       ruboconf (~> 1.20.0)
-      rubocop-rails (~> 2.34.2)
+      rubocop-rails (~> 2.34.3)
 
 GEM
   remote: https://rubygems.org/
